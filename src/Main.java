@@ -16,5 +16,13 @@ public class Main {
         e1.mostrarEstudiante();
 
         //Cuadrado
+        Cuadrado c1 = new Cuadrado(4);
+        c1.calcularPerimetro();
+        c1.calcularArea();
+
+        //Automovil
+
+        Automovil a1 = new Automovil("Honda", 2022, 190, "Sport");
+        a1.mostrarVehiculo();
     }
 }

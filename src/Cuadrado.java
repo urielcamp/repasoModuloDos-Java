@@ -9,11 +9,13 @@ public class Cuadrado {
     public void calcularArea(){
         int area = lado * lado;
         System.out.println("el area del Cuadrado es: " + area);
+        System.out.println("---------------------------");
     }
 
     public void calcularPerimetro(){
         int perimetro = lado * 4;
         System.out.println("el perimetro del Cuadrado es: " + perimetro);
+        System.out.println("---------------------------");
     }
 
 
