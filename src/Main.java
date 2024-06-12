@@ -34,6 +34,17 @@ public class Main {
         Gato gato1 = new Gato();
         gato1.hacerSonido();
 
+        //Operaciones
+        Operaciones o1 = new Operaciones();
+        System.out.println("Resultado sumas");
+        System.out.println(o1.sumar(2,3));
+        System.out.println(o1.sumar(2,3,4));
+        System.out.println(o1.sumar(1.5,1.5));
+        System.out.println("---------------------------");
+
+        //
+
+
 
 
 
