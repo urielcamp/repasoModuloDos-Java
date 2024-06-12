@@ -54,6 +54,21 @@ public class Main {
         ag1.volarAlto();
         System.out.println("---------------------------");
 
+        //Guerrero
+
+        Guerrero grr1 = new Guerrero("axterix", 100, 2000);
+        grr1.atacar();
+        System.out.println("---------------------------");
+
+        //Mago
+
+        Mago mg1 = new Mago("walfred", 100, 900);
+        mg1.lanzarHechizo();
+        System.out.println("---------------------------");
+
+
+
+
 
 
 
