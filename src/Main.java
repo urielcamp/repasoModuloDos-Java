@@ -42,8 +42,17 @@ public class Main {
         System.out.println(o1.sumar(1.5,1.5));
         System.out.println("---------------------------");
 
-        //
+        //Canario
 
+        Canario canario1 = new Canario("Lopez", "azul", "piu piu");
+        canario1.cantar();
+        System.out.println("---------------------------");
+
+        //Aguila
+
+        Aguila ag1 = new Aguila("Alfa", "Marron", 2.3);
+        ag1.volarAlto();
+        System.out.println("---------------------------");
 
 
 
